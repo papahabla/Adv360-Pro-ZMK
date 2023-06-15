@@ -1,4 +1,4 @@
-macro_pastbot: macro_kinesis{
+macro_pastbot: macro_pastbot{
 compatible = "zmk,behavior-macro";
 label = "macro_pastbot";
 #binding-cells = <0>;
