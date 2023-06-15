@@ -14,13 +14,13 @@ macro_pastbot: macro_cut{
 compatible = "zmk,behavior-macro";
 label = "macro_cut";
 #binding-cells = <0>;
-bindings = <&kp LGUI(X)>;
+bindings = <&kp LG(X)>;
 };
 macro_pastbot: macro_copy{
 compatible = "zmk,behavior-macro";
 label = "macro_copy";
 #binding-cells = <0>;
-bindings = <&kp LGUI(C)>;
+bindings = <&kp LG(C)>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
