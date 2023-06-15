@@ -8,7 +8,7 @@ macro_pastbot: macro_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_paste";
 #binding-cells = <0>;
-bindings = <&kp LS(V)>;
+bindings = <&kp LG(V)>;
 };
 macro_pastbot: macro_cut{
 compatible = "zmk,behavior-macro";
