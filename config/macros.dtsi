@@ -4,21 +4,21 @@ label = "macro_pastbot";
 #binding-cells = <0>;
 bindings = <&kp LS(LC(LA(LG(V))))>;
 };
-macro_pastbot: macro_paste{
+macro_pastbot: macro_pastbot{
 compatible = "zmk,behavior-macro";
-label = "macro_paste";
+label = "macro_pastbot";
 #binding-cells = <0>;
 bindings = <&kp LG(V)>;
 };
-macro_pastbot: macro_cut{
+macro_pastbot: macro_pastbot{
 compatible = "zmk,behavior-macro";
-label = "macro_cut";
+label = "macro_pastbot";
 #binding-cells = <0>;
 bindings = <&kp LG(X)>;
 };
-macro_pastbot: macro_copy{
+macro_pastbot: macro_pastbot{
 compatible = "zmk,behavior-macro";
-label = "macro_copy";
+label = "macro_pastbot";
 #binding-cells = <0>;
 bindings = <&kp LG(C)>;
 };
