@@ -2,7 +2,7 @@ macro_pastbot: macro_pastbot{
 compatible = "zmk,behavior-macro";
 label = "macro_pastbot";
 #binding-cells = <0>;
-bindings = <&kp LSHFT(LCTRL(LALT(LGUI(V))))>;
+bindings = <&kp LS(LC(LA(LG(V))))>;
 };
 macro_pastbot: macro_paste{
 compatible = "zmk,behavior-macro";
